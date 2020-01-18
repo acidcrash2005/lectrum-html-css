@@ -9,6 +9,7 @@
           "sidebar footer";
   grid-template-rows: 64px 1fr 62px;
   grid-template-columns: 242px;
+  background-color: $bg-secondary;
 }
 
 .header{
@@ -24,11 +25,10 @@
 
 .main{
   grid-area: main;
-  background-color: $bg-secondary;
 }
 
 .footer{
   grid-area: footer;
-  background-color: $bg-primary;
+  background-color: $bg-primary-rgba;
 
 }
