@@ -4,13 +4,31 @@ Guide: [here](https://dev.to/pixelgoo/how-to-configure-webpack-from-scratch-for-
 
 
 Install all packages:
+
+### npm install
 ```
 $ npm install
 ```
 
-Run webpack
+### yarn install
+```
+$ yarn
+```
+
+Run webpack builder
 ```
 $ npm run build
+```
+```
+$ yarn build
+```
+
+Run webpack watcher
+```
+$ npm run watch
+```
+```
+$ yarn watch
 ```
 
 Done! Open index.html in browser for a cat image.
