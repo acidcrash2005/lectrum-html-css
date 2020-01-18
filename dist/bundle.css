@@ -360,7 +360,30 @@ textarea {
   padding: 0.2em 0;
 }
 
-.temp {
-  background: #ccc;
-  border: 1px solid #000;
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "sidebar header" "sidebar main" "sidebar footer";
+  grid-template-rows: 64px 1fr 62px;
+  grid-template-columns: 242px;
+}
+
+.header {
+  grid-area: header;
+  background-color: #fff;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #fff;
+}
+
+.main {
+  grid-area: main;
+  background-color: #F8FAFB;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #fff;
 }
