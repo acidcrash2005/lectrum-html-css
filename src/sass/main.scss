@@ -15,12 +15,13 @@
 .header{
   grid-area: header;
   background-color: $bg-primary;
+  border-bottom: 1px solid $border-primary;
 }
 
 .sidebar{
   grid-area: sidebar;
   background-color: $bg-primary;
-
+  border-right: 1px solid $border-primary;
 }
 
 .main{

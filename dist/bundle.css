@@ -372,11 +372,13 @@ textarea {
 .header {
   grid-area: header;
   background-color: #fff;
+  border-bottom: 1px solid #E8ECEF;
 }
 
 .sidebar {
   grid-area: sidebar;
   background-color: #fff;
+  border-right: 1px solid #E8ECEF;
 }
 
 .main {
