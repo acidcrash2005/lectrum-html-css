@@ -31,5 +31,11 @@
 .footer{
   grid-area: footer;
   background-color: $bg-primary-rgba;
+}
 
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
 }

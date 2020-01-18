@@ -389,3 +389,10 @@ textarea {
   grid-area: footer;
   background-color: #fff;
 }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+}
