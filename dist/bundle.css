@@ -398,3 +398,10 @@ textarea {
   align-items: center;
   height: 64px;
 }
+
+.main-menu .link {
+  text-decoration: none;
+  color: #778CA2;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}

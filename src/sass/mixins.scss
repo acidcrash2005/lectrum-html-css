@@ -1,0 +1,4 @@
+@mixin addFont($font-family, $size){
+  font-family: $font-family;
+  font-size: $size;
+}
