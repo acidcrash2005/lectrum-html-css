@@ -3,14 +3,17 @@ $c-color1-rgba: rgba(255,255,255,0.64);
 $c-color2: #F8FAFB;
 $c-color3: #E8ECEF;
 $c-color4: #778CA2;
+$c-color5: #4D7CFE;
+
+$text-primary: $c-color4;
+$text-secondary: $c-color5;
 
 $bg-primary: $c-color1;
 $bg-primary-rgba: $c-color1;
 $bg-secondary: $c-color2;
 
 $border-primary: $c-color3;
-
-$link-primary: $c-color4;
+$border-secondary: $c-color5;
 
 $font-primary:'Rubik', sans-serif;
 $font-secondary:'Roboto', sans-serif;

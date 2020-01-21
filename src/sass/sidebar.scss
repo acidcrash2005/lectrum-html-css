@@ -21,13 +21,24 @@
     @include addFont($font-primary, $font-size-S);
     display: flex;
     align-items: center;
+    border-left: 1px solid transparent;
 
     height: 64px;
     padding: 0 28px;
 
     text-decoration: none;
-    color: $link-primary;
+    color: $text-primary;
     text-transform: uppercase;
+
+    &.active, &:hover, &:focus{
+      background-color: $bg-secondary;
+      font-weight: 500;
+      border-color: $border-secondary;
+
+      i{
+        color: $text-secondary;
+      }
+    }
 
     span{
       display: block;

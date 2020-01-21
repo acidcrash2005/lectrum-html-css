@@ -404,11 +404,20 @@ textarea {
   font-size: 14px;
   display: flex;
   align-items: center;
+  border-left: 1px solid transparent;
   height: 64px;
   padding: 0 28px;
   text-decoration: none;
   color: #778CA2;
   text-transform: uppercase;
+}
+.main-menu .link.active, .main-menu .link:hover, .main-menu .link:focus {
+  background-color: #F8FAFB;
+  font-weight: 500;
+  border-color: #4D7CFE;
+}
+.main-menu .link.active i, .main-menu .link:hover i, .main-menu .link:focus i {
+  color: #4D7CFE;
 }
 .main-menu .link span {
   display: block;
