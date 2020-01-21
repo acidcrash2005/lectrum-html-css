@@ -404,7 +404,7 @@ textarea {
   font-size: 14px;
   display: flex;
   align-items: center;
-  border-left: 1px solid transparent;
+  border-left: 2px solid transparent;
   height: 64px;
   padding: 0 28px;
   text-decoration: none;
@@ -428,4 +428,46 @@ textarea {
 .main-menu .link i {
   font-size: 22px;
   margin-right: 18px;
+}
+
+.links .title {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  color: #98A9BC;
+  padding: 18px 28px;
+}
+.links .link {
+  display: flex;
+  align-items: center;
+  padding: 0 18px 0 26px;
+  text-decoration: none;
+  color: #778CA2;
+  height: 46px;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+}
+.links .link span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.links .item {
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+.links .item:nth-child(1n) {
+  border-color: #4D7CFE;
+}
+.links .item:nth-child(2n) {
+  border-color: #FE4D97;
+}
+.links .item:nth-child(3n) {
+  border-color: #6DD230;
+}
+.links .item:nth-child(4n) {
+  border-color: #2CE5F6;
+}
+.links .item:nth-child(5n) {
+  border-color: #FFAB2B;
 }

@@ -21,7 +21,7 @@
     @include addFont($font-primary, $font-size-S);
     display: flex;
     align-items: center;
-    border-left: 1px solid transparent;
+    border-left: 2px solid transparent;
 
     height: 64px;
     padding: 0 28px;
@@ -50,4 +50,52 @@
       margin-right: 18px;
     }
   }
+}
+
+
+.links{
+  .title{
+    @include addFont($font-primary, $font-size-S);
+    color: $title-primary;
+    padding: 18px 28px;
+  }
+
+  .link{
+    display: flex;
+    align-items: center;
+
+    padding: 0 18px 0 26px;
+    text-decoration: none;
+    color: $text-primary;
+    height: 46px;
+
+    @include addFont($font-primary, $font-size-S);
+
+    span{
+      @include eclipse;
+      display: block;
+    }
+  }
+
+  .item{
+    border-left-width: 2px;
+    border-left-style: solid;
+
+    &:nth-child(1n){
+      border-color: $border-secondary;
+    }
+    &:nth-child(2n){
+        border-color: $border-third;
+    }
+    &:nth-child(3n){
+        border-color: $border-forth;
+    }
+    &:nth-child(4n){
+        border-color: $border-fifth;
+    }
+    &:nth-child(5n){
+        border-color: $border-sixth;
+    }
+  }
+
 }
