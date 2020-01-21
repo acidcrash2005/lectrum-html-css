@@ -400,8 +400,23 @@ textarea {
 }
 
 .main-menu .link {
-  text-decoration: none;
-  color: #778CA2;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 28px;
+  text-decoration: none;
+  color: #778CA2;
+  text-transform: uppercase;
+}
+.main-menu .link span {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main-menu .link i {
+  font-size: 22px;
+  margin-right: 18px;
 }
